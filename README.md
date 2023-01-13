@@ -3,8 +3,7 @@ Back Propagation in Excel
 
 
 # Step 1
-See the figure of the neural network.  
-List the relationships/equations between each neuron.  
+According to the figure of the neural network, list all the relationships/equations between each neuron.  
 h1 = w1 * i1 + w2 * i2  
 h2 = w3 * i1 + w4 * i2  
 a_h1 = σ(o1) = 1/(1+exp(-h1))  
