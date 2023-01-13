@@ -1,7 +1,7 @@
 # EVA8_S3_BackPropagation
 Back Propagation in Excel
 
-
+![](images/step_01.png)
 # Step 1
 According to the figure of the neural network, list all the relationships/equations between each neuron.  
 h1 = w1 * i1 + w2 * i2  
