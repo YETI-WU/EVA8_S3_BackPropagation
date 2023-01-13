@@ -59,7 +59,16 @@ Extend the chain rule to replace every element in step 5 to calculate the partia
 δE_total/δw2 = ((a_o1-t1) * ao_o1*(1-a_o1) * w5 + (a_o2-t2) * a_o2*(1-a_o2) * w7) * a_h1*(1-a_h1) * i2  
 δE_total/δw3 = ((a_o1-t1) * ao_o1*(1-a_o1) * w6 + (a_o2-t2) * a_o2*(1-a_o2) * w8) * a_h1*(1-a_h1) * i1  
 δE_total/δw4 = ((a_o1-t1) * ao_o1*(1-a_o1) * w6 + (a_o2-t2) * a_o2*(1-a_o2) * w8) * a_h1*(1-a_h1) * i2  
-
-
-
   
+# Step 7
+Adding E1 and E2 to show the Loss vs training steps, as x-axis.
+![](images/Loss_graph.png)
+
+We can further tune the learning rate:  η  
+By changing the learning rate, we can see the higher the learning rate, the quicker the loss converge.  
+![](images/LearningRate_difference.png)
+  
+The higher doesn't mean the quicker converge.
+In another case that learning rate is too high, like 200, the training was acutally getting worse, since the weight is updating too much and too quick.
+case: (t1, t2) is changed from (0.1, 0.9) to (0.3, 0.7)
+![](images/LearningRate_tooHigh.png)
