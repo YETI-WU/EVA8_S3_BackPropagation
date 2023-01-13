@@ -25,3 +25,13 @@ Take partial derivative of E_total for w5, with chain rule, list every equation.
 * E1/δa_o1 = δ(1/2*(t1-a_o1)^2)/δa_o1 = a_o1-t1  
 * δa_o1/δo1 = δ(σ(o1))/δo1 = a_o1*(1-a_o1)  
 * o1/δw5 = a_h1  
+  
+# Step 3
+Use chain rule to calculate partial derivate of w5, w6, w7, and w8.  
+* δE_total/δw5 = (a_o1-t1) * ao1*(1-a_o1) * a_h1  
+* δE_total/δw6 = (a_o1-t1) * ao1*(1-a_o1) * a_h2  
+* δE_total/δw7 = (a_o2-t2) * ao2*(1-a_o2) * a_h1  
+* δE_total/δw8 = (a_o2-t2) * ao2*(1-a_o2) * a_h2  
+  
+
+  
