@@ -6,15 +6,20 @@ Back Propagation in Excel
 According to the figure of the neural network, list all the relationships/equations between each neuron.  
 * h1 = w1 * i1 + w2 * i2  
 * h2 = w3 * i1 + w4 * i2  
+h1 and h2 are the first layer neurons, from the weights time i1 and i2.
 * a_h1 = σ(o1) = 1/(1+exp(-h1))  
 * a_h2 = σ(h2) = 1/(1+exp(-h2))  
+Activation function, sigmoid, is applied to h1 to get a_h1.
 * o1 = w5 * a_h1 + w6 * a_h2  
 * o2 = w7 * a_h1 + w8 * a_h2  
+o1 and o2 are the 2nd layer neurons, from wht weights time a_h1 and a_h2.
 * a_o1 = σ(o1) = 1/(1+exp(-o1))  
 * a_o2 = σ(o2) = 1/(1+exp(-o2))  
+Activation function, sigmoid, is applied to o1 to get a_o1.
 * E_total = E1 + E2  
 * E1 = 1/2 * (t1 - a_o1)^2   
 * E2 = 1/2 * (t2 - a_o2)^2  
+The erro function is then calculated and sum to E_total.
   
 ![](images/step_02.png)
 # Step 2
