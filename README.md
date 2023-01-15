@@ -76,7 +76,7 @@ Plot the figure to to show Loss vs training steps, steps as x-axis.
 We can further tune the learning rate:  η  
 By changing the learning rate, we can see the higher the learning rate, the quicker the loss converge.  
   
-![](images/LearningRate_difference.png)
+![](images/LearningRate_vary.png)
   
 The higher doesn't mean the quicker converge.  
 In another case that learning rate is too high, like 200, the training was acutally getting worse, since the weight is updating too much and too quick.  
