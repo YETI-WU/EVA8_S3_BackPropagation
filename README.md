@@ -38,7 +38,7 @@ Use chain rule to calculate partial derivative E_total of w5, w6, w7, and w8.
 # Step 4
 Taking partial derivative of E1 and E2 respective to a_h1.  
 δE_total/δa_h1 is adding previous two term together.  
-* We can repeat the same calculation for δE_total/δa_h2.  
+We can repeat the same calculation for δE_total/δa_h2.    
 * δE1/δa_h1 = (a_o1-t1) * a_o1*(1-a_o1) * w5  
 * δE2/δa_h1 = (a_o2-t2) * a_o2*(1-a_o2) * w7  
 * δE_total/δa_h1 = (a_o1-t1) * ao_o1*(1-a_o1) * w5 + (a_o2-t2) * a_o2*(1-a_o2) * w7  
